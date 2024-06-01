@@ -46,7 +46,7 @@ const Home = ({ setDetail }) => {
               <div key={index}>
                 <div className="col">
                   <div className="card h-100">
-                    <div className="card-header">Name : {element.name}</div>
+                    <div className="card-header">{element.name}</div>
                     <div className="card-body">
                       <h5 className="card-title">User ID : {element.id}</h5>
                       <h5 className="card-title">
