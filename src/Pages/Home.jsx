@@ -46,12 +46,12 @@ const Home = ({ setDetail }) => {
               <div key={index}>
                 <div className="col">
                   <div className="card h-100">
-                    <div className="card-header">User ID : {element.id}</div>
+                    <div className="card-header">Name : {element.name}</div>
                     <div className="card-body">
-                      <h5 className="card-title">Name : {element.name}</h5>
-                      <p className="card-text">
+                      <h5 className="card-title">User ID : {element.id}</h5>
+                      <h5 className="card-title">
                         Company : {element.company.name}
-                      </p>
+                      </h5>
                       <p className="card-text">Phone : {element.phone}</p>
                     </div>
                     <div className="card-footer">
